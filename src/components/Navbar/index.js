@@ -39,7 +39,7 @@ const SearchBar = () => {
 }
 
 const NavBar = () => {
-  const [cartCount, setCartCount] = useState(null)
+  const [cartCount, setCartCount] = useState(0)
   return (
     <>
         <Navbar className="bg-blue-900 sticky inset-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
